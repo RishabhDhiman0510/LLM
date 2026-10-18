@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WikiGPT</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="layout">
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <span class="brand">WikiGPT</span>
+        <button type="button" id="new-chat" class="button">New chat</button>
+      </div>
+      <ul id="chat-list" class="chat-list"></ul>
+    </aside>
+
+    <main class="conversation">
+      <div id="messages" class="messages"></div>
+      <form id="composer" class="composer">
+        <textarea id="input" rows="1" placeholder="Send a message" autocomplete="off"></textarea>
+        <button type="submit" id="send" class="button button-primary">Send</button>
+      </form>
+    </main>
+  </div>
+
+  <script src="/app.js"></script>
+</body>
+</html>

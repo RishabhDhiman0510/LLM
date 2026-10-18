@@ -1,0 +1,7 @@
+numpy
+tokenizers>=0.15
+huggingface_hub
+pyarrow
+datasets
+matplotlib
+pytest
